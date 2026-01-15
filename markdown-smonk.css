@@ -1,0 +1,39 @@
+h1 {
+    color: #FF6600;
+    border-bottom: none;
+}
+
+h2 {
+    color: midnightblue;
+    border-bottom: solid thin #CC9;
+    margin-top: 2rem;
+}
+
+h3 {
+    color: steelblue;
+}
+
+h4 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#footer {
+    margin-top: 2rem;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+ol li ol {
+    list-style-type: lower-alpha; /* For lowercase letters */
+}
+
+code {
+    background-color: #eee;
+    padding: 0 0.5rem;
+}
+
