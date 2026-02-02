@@ -40,4 +40,5 @@ code {
 blockquote {
     border-left: solid 5px #CC9 !important;
     margin-left: 0 1rem !important;
+    color: red;
 }
