@@ -20,7 +20,7 @@ h4 {
 
 #footer {
     margin-top: 2rem;
-    background-color: blue;
+    background-color: aliceblue;
     padding: 0.5rem;
     font-style: italic;
     font-size: small;
@@ -38,7 +38,6 @@ code {
 }
 
 blockquote {
-    border-left: solid 5px #CC9 !important;
-    margin-left: 0 1rem !important;
-    color: red;
+    border-left: solid 5px #CC9;
+    margin-left: 0 1rem;
 }
