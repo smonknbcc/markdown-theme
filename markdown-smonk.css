@@ -37,3 +37,7 @@ code {
     padding: 0 0.5rem;
 }
 
+blockquote {
+    border-left: solid 5px #CC9;
+    margin-left: 0 1rem;
+}
