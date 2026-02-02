@@ -38,6 +38,6 @@ code {
 }
 
 blockquote {
-    border-left: solid 5px #CC9;
-    margin-left: 0 1rem;
+    border-left: solid 5px #CC9 !important;
+    margin-left: 0 1rem !important;
 }
