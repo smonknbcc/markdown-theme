@@ -1,3 +1,18 @@
+html {
+    font-size: 16px;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+}
+
+#content {
+     margin: auto;
+     color: #333;
+     font-family: "Lato", "Source Sans 3", serif;
+}
+
 h1 {
     color: #FF6600;
     border-bottom: none;
@@ -5,7 +20,7 @@ h1 {
 
 h2 {
     color: midnightblue;
-    border-bottom: solid thin #CC9;
+    border-bottom: solid thin #CCCC99;
     margin-top: 2rem;
 }
 
@@ -16,6 +31,34 @@ h3 {
 h4 {
     font-weight: bold;
     text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        width: 90%;
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+    #content {
+        width: 80%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    #content {
+        width: 70%;
+        font-size: 1.33rem;
+        line-height: 1.6;
+    }
 }
 
 #footer {
